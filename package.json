@@ -1,22 +1,22 @@
 {
-  "name": "time-constants",
+  "name": "tau",
   "version": "1.0.0",
-  "description": "Provide a list of constants for use in cache expirations etc",
+  "description": "Provide a list of constants for use in cache expiration and ttl settings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/camsjams/node-time-constants.git"
+    "url": "git+https://github.com/camsjams/node-tau.git"
   },
   "keywords": [
-    "constants"
+    "cache and ttl constants"
   ],
   "author": "Cameron Manavian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/camsjams/node-time-constants/issues"
+    "url": "https://github.com/camsjams/node-tau/issues"
   },
-  "homepage": "https://github.com/camsjams/node-time-constants#readme"
+  "homepage": "https://github.com/camsjams/node-tau#readme"
 }

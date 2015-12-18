@@ -1,36 +1,39 @@
-# node time constants
-Check your caching layer before running your promises
+# Tau: node time constants
+Tau provides a list of constants for use in cache expiration or TTLs.
+
+Tau is also the time constant of any device, such as an RC circuit.
 
 ## Current Version 1.0.0
 
 ## Platforms / Technologies
 * [nodejs](http://nodejs.org/)
+* [What is tau?](https://en.wikipedia.org/wiki/RC_time_constant)
 
 ## Install
->       $ npm install time-constants --save
+>       $ npm install tau --save
 
 ## There are two objects exposed
         ```javascript
-        var timecon = require('time-constants');
+        var tau = require('tau');
         // seconds
-        timecon.s;
+        tau.s;
         
         // milliseconds
-        timecon.ms;
+        tau.ms;
         ```
 
 ## Usage
         ```javascript
         // load into your script
-        var timecon = require('time-constants');
+        var tau = require('tau');
         
         // use in your caching layers
         
         // example: express static
-        app.use(express.static(__dirname + '/public', { maxAge: timecon.ms.oneDay }));
+        app.use(express.static(__dirname + '/public', { maxAge: tau.ms.oneDay }));
         
         // example: Node redis (npm install redis)
-        client.expire('my:key:here', timecon.s.oneHour);
+        client.expire('my:key:here', tau.s.oneHour);
         
         // apply directly to the forehead
         ```
