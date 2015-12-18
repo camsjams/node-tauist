@@ -14,27 +14,31 @@ Tau is the time constant of any device, such as an RC circuit.
 
 ## There are two objects exposed
 
-    var tauist = require('tauist');
-    // seconds
-    tauist.s;
-    
-    // milliseconds
-    tauist.ms;
+```javascript
+var tauist = require('tauist');
+// seconds
+tauist.s;
+
+// milliseconds
+tauist.ms;
+```
 
 ## Usage
 
-    // load into your script
-    var tauist = require('tauist');
-    
-    // use in your caching layers
-    
-    // example: express static
-    app.use(express.static(__dirname + '/public', { maxAge: tauist.ms.oneDay }));
-    
-    // example: Node redis (npm install redis)
-    client.expire('my:key:here', tauist.s.oneHour);
-    
-    // apply directly to the forehead
+```javascript
+// load into your script
+var tauist = require('tauist');
+
+// use in your caching layers
+
+// example: express static
+app.use(express.static(__dirname + '/public', { maxAge: tauist.ms.oneDay }));
+
+// example: Node redis (npm install redis)
+client.expire('my:key:here', tauist.s.oneHour);
+
+// apply directly to the forehead
+```
         
 ## Current available times
 
