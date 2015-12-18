@@ -1,6 +1,6 @@
 {
   "name": "tauist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide a list of constants for use in cache expiration and ttl settings",
   "main": "index.js",
   "scripts": {
