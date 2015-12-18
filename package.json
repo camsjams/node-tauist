@@ -1,0 +1,22 @@
+{
+  "name": "time-constants",
+  "version": "1.0.0",
+  "description": "Provide a list of constants for use in cache expirations etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camsjams/node-time-constants.git"
+  },
+  "keywords": [
+    "constants"
+  ],
+  "author": "Cameron Manavian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camsjams/node-time-constants/issues"
+  },
+  "homepage": "https://github.com/camsjams/node-time-constants#readme"
+}
