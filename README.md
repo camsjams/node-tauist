@@ -14,18 +14,15 @@ Tau is the time constant of any device, such as an RC circuit.
 
 ## There are two objects exposed
 
-    ```javascript
     var tauist = require('tauist');
     // seconds
     tauist.s;
     
     // milliseconds
     tauist.ms;
-    ```
 
 ## Usage
 
-    ```javascript
     // load into your script
     var tauist = require('tauist');
     
@@ -38,7 +35,6 @@ Tau is the time constant of any device, such as an RC circuit.
     client.expire('my:key:here', tauist.s.oneHour);
     
     // apply directly to the forehead
-    ```
         
 ## Current available times
 
