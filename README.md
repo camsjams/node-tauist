@@ -1,7 +1,7 @@
-# Tau: node time constants
-Tau provides a list of constants for use in cache expiration or TTLs.
+# Tauist: node time constants
+Tauist provides a list of constants for use in cache expiration or TTLs.
 
-Tau is also the time constant of any device, such as an RC circuit.
+Tau is the time constant of any device, such as an RC circuit.
 
 ## Current Version 1.0.0
 
@@ -10,30 +10,30 @@ Tau is also the time constant of any device, such as an RC circuit.
 * [What is tau?](https://en.wikipedia.org/wiki/RC_time_constant)
 
 ## Install
->       $ npm install tau --save
+>       $ npm install tauist --save
 
 ## There are two objects exposed
         ```javascript
-        var tau = require('tau');
+        var tauist = require('tauist');
         // seconds
-        tau.s;
+        tauist.s;
         
         // milliseconds
-        tau.ms;
+        tauist.ms;
         ```
 
 ## Usage
         ```javascript
         // load into your script
-        var tau = require('tau');
+        var tauist = require('tauist');
         
         // use in your caching layers
         
         // example: express static
-        app.use(express.static(__dirname + '/public', { maxAge: tau.ms.oneDay }));
+        app.use(express.static(__dirname + '/public', { maxAge: tauist.ms.oneDay }));
         
         // example: Node redis (npm install redis)
-        client.expire('my:key:here', tau.s.oneHour);
+        client.expire('my:key:here', tauist.s.oneHour);
         
         // apply directly to the forehead
         ```

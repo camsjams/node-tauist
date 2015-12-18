@@ -1,5 +1,5 @@
 {
-  "name": "tau",
+  "name": "tauist",
   "version": "1.0.0",
   "description": "Provide a list of constants for use in cache expiration and ttl settings",
   "main": "index.js",
@@ -16,7 +16,7 @@
   "author": "Cameron Manavian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/camsjams/node-tau/issues"
+    "url": "https://github.com/camsjams/node-tauist/issues"
   },
-  "homepage": "https://github.com/camsjams/node-tau#readme"
+  "homepage": "https://github.com/camsjams/node-tauist#readme"
 }
