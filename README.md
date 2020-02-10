@@ -3,7 +3,9 @@ Tauist provides a list of constants for use in cache expiration or TTLs.
 
 Tau is the time constant of any device, such as an RC circuit.
 
-## Current Version 1.0.1
+## Current Version 1.1.0
+
+#### Version 1.1.0 adds TypeScript definitions
 
 ## Platforms / Technologies
 * [nodejs](http://nodejs.org/)

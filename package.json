@@ -1,8 +1,9 @@
 {
   "name": "tauist",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Provide a list of constants for use in cache expiration and ttl settings",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/camsjams/node-tauist/issues"
   },
-  "homepage": "https://github.com/camsjams/node-tauist#readme"
+  "homepage": "https://github.com/camsjams/node-tauist#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {}
 }
