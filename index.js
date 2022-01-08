@@ -1,6 +1,9 @@
 var oneHourInSeconds = 60 * 60;
 var oneDayInSeconds = oneHourInSeconds * 24;
 var timeInSeconds = {
+    oneSecond: 1,
+    fiveSeconds: 5,
+    tenSeconds: 10,
     halfMinute: 30,
     oneMinute: 60,
     fiveMinutes: 60 * 5,
@@ -23,6 +26,9 @@ var toMs = 1000;
 module.exports = {
     s: timeInSeconds,
     ms: {
+        oneSecond: timeInSeconds.oneSecond * toMs,
+        fiveSeconds: timeInSeconds.fiveSeconds * toMs,
+        tenSeconds: timeInSeconds.tenSeconds * toMs,
         halfMinute: timeInSeconds.halfMinute * toMs,
         oneMinute: timeInSeconds.oneMinute * toMs,
         fiveMinutes: timeInSeconds.fiveMinutes * toMs,
