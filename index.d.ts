@@ -1,5 +1,8 @@
 declare const _default: {
 	s: {
+		oneSecond: number;
+		fiveSeconds: number;
+		tenSeconds: number;
 		halfMinute: number;
 		oneMinute: number;
 		fiveMinutes: number;
@@ -18,6 +21,9 @@ declare const _default: {
 		sixMonths: number;
 	};
 	ms: {
+		oneSecond: number;
+		fiveSeconds: number;
+		tenSeconds: number;
 		halfMinute: number;
 		oneMinute: number;
 		fiveMinutes: number;
